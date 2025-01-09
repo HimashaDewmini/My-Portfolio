@@ -6,6 +6,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>Portfolio web site</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init({
+      publicKey: "Xz0ZdlbML7OiXQoiF", 
+    });
+  })();
+</script>
 
     </head>
     <body>
@@ -33,12 +41,12 @@
                 <h3>And I'm a <span>Frontend Developer</span></h3>
                 <p>I'm a passionate Web Developer with a love for creating stunning and functional websites. I specialize in "frontend development, and responsive layouts.</p>
                 <div class="social-media">
-                    <a href="https://www.linkedin.com/in/himasha-dewmini"><i class="fa-brands fa-linkedin"></i></i>
-                    </i></a>
-                    <a href="https://github.com/HimashaDewmini"><i class="fa-brands fa-github"></i></i>
+                    <a href="https://www.linkedin.com/in/himasha-dewmini"><i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/HimashaDewmini"><i class="fa-brands fa-github"></i>
                     </a>
                 </div>
-                <a href="#" class="btn" >Download CV</a>
+                <a href="img/Himasha_Dewmini_resume.pdf" class="btn" >Download CV</a>
 
             </div>
             <div class="home-img">
@@ -172,12 +180,12 @@
 
         <!-- Project Cards -->
 
-        <div class="project-container">
+        <section class="project-container">
 
             <!-- Project Card 1 -->
 
             <div class="project-card" data-category="frontend">
-            <img src="img/dream-estates.jpg" alt="Real Estates" class="project-img">
+            <img src="img/resl-state.PNG" alt="Real Estates" class="project-img">
             <div class="project-content">
                 <h3 class="project-title">Real Estates</h3>
                 <div class="project-tags">
@@ -189,7 +197,90 @@
                 </p>
             </div>
             </div>
-        
+
+            <!-- Project Card 2-->
+
+            <div class="project-card" data-category="frontend">
+                <img src="img/resl-state.PNG" alt="Real Estates" class="project-img">
+                <div class="project-content">
+                    <h3 class="project-title">Real Estates</h3>
+                    <div class="project-tags">
+                    <span>React Js</span><span>Tellwind css</span>
+                 
+                    </div>
+                    <p class="project-description">
+                    This real estate marketplace web application was built on the MERN stack. The app offers a comprehensive real estate solution.
+                    </p>
+                </div>
+            </div>
+
+                <!-- Project Card 3 -->
+
+            <div class="project-card" data-category="frontend">
+                <img src="img/resl-state.PNG" alt="Real Estates" class="project-img">
+                <div class="project-content">
+                    <h3 class="project-title">Real Estates</h3>
+                    <div class="project-tags">
+                    <span>React Js</span><span>Tellwind css</span>
+                 
+                    </div>
+                    <p class="project-description">
+                    This real estate marketplace web application was built on the MERN stack. The app offers a comprehensive real estate solution.
+                    </p>
+                </div>
+            </div>
+
+                <!-- Project Card 4 -->
+
+            <div class="project-card" data-category="fullstack">
+                <img src="img/resl-state.PNG" alt="Real Estates" class="project-img">
+                <div class="project-content">
+                    <h3 class="project-title">Real Estates</h3>
+                    <div class="project-tags">
+                    <span>React Js</span><span>Tellwind css</span>
+                 
+                    </div>
+                    <p class="project-description">
+                    This real estate marketplace web application was built on the MERN stack. The app offers a comprehensive real estate solution.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+            </section>
+
+
+                <!--contact section-->
+
+                <section class="contact" id="contact">
+                    <div class="contact-container">
+                      <h2>Contact <span>Me</span></h2>
+                      <hr class="underline">
+                      <form id="contact-form" action="submit_form.php" method="post">
+                        <div class="input-box">
+                            <input type="text" id="full-name" placeholder="Full Name" required>
+                            <input type="email" id="email-address" placeholder="Email Address" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" id="mobile-number" placeholder="Mobile Number" required>
+                            <input type="text" id="email-subject" placeholder="Email Subject" required>
+                        </div>
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    
+                    </div>
+                  </section>
+                  
+
+                <!--footer design-->
+
+                <footer class="">
+                    <div class="footer-text">
+                        <p>© 2025 Himasha Dewmini. All rights reserved</p>
+                    </div>
+                </footer>
+
 
         <script src ="main.js">
 
