@@ -410,6 +410,78 @@ span{
     color: #cbd5e1;
   }
 
+  .education-section {
+    padding: 3rem 2rem;
+    background-color:var(--bg-color); 
+    color:var(--text-color);
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 4rem;
+    color: #00d9ff; 
+    margin-bottom: 4rem;
+  }
+  
+  .section-description {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    color: #d9e6f2;
+  }
+  
+  .education-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    flex-direction: column;
+    justify-self: center;
+  }
+  
+  .education-card {
+    display: flex;
+    background: #112240; /* Card background */
+    border: 1px solid #00d9ff; /* Accent border */
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 400px;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .education-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .education-logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #00d9ff;
+  }
+  
+  .education-details h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+    color: #00d9ff;
+  }
+  
+  .degree,
+  .duration {
+    font-size: 1.1rem;
+    color: #d9e6f2;
+    margin: 0.3rem 0;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #aab4c6;
+    margin-top: 0.5rem;
+  }
+
   .contact {
     width: 100%;
     max-width: 500px;
@@ -417,6 +489,7 @@ span{
     border-radius: 1rem;
     align-items: center;
     justify-self: center;
+    background: var(--bg-color);
   }
   
   .contact-container h2 {
@@ -460,7 +533,20 @@ span{
     outline: none;
   }
 
-  
+  .btn-button{
+    display: inline-block;
+    padding: 1rem .5rem;
+    background:var(--main-color) ;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color:var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    margin: 0 auto;
+    
+}  
   
   textarea {
    width: 675px;
