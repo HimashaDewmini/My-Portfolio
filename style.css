@@ -72,11 +72,23 @@ section{
     align-items: center;
 
 }
+
 .home-content h3{
     font-size:3.2rem;
     font-weight: 700;
 
 }
+
+@keyframes colorChange {
+  0% { color: #38bdf8; }
+  50% { color: #facc15; }
+  100% { color: #ef4444; }
+}
+
+.home-content h3 span {
+  animation: colorChange 3s infinite alternate;
+}
+
 .home-content h3:nth-of-type(2){
     margin-bottom:2rem ;
 }
@@ -159,14 +171,14 @@ span{
 
 .about-img img {
     width: 30vw;
-    border-radius: 15px; /* Adds rounded corners */
+    border-radius: 15px; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     object-fit: cover;
     transition: transform 0.3s ease;
 }
 
 .about-img img:hover {
-    transform: scale(1.05); /* Adds a hover effect */
+    transform: scale(1.05); 
 }
 
 .about-content {
@@ -183,7 +195,7 @@ span{
 }
 
 .heading span {
-    color: #5586b8; /* Highlight part of the heading */
+    color: #5586b8; 
 }
 
 .heading::after {
@@ -294,7 +306,7 @@ span{
 
 .projects {
     padding: 4rem 2rem;
-    background: #0f172a; /* Dark background */
+    background: #0f172a;
     text-align: center;
     color: #fff;
   }

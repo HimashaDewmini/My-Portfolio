@@ -18,6 +18,8 @@ filterButtons.forEach(btn => {
         card.style.display = 'none';
       }
     });
+
+    
   });
 });
 
