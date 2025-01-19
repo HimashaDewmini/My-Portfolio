@@ -217,6 +217,7 @@ section {
     transform: scale(1.05);
 }
 
+
 .about-content {
     max-width: 50%;
 }
@@ -403,11 +404,12 @@ section {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+ 
 
 }
 
 .project-card {
-    width: 300px;
+    width: 350px;
     height: 100px;
     height: auto;
     background: #1e293b;
@@ -478,7 +480,7 @@ section {
 }
 
 .section-description {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 5rem;
     color: #d9e6f2;
 }
@@ -490,7 +492,7 @@ section {
   justify-content: center;
   align-items: center; 
   gap: 5rem;
-  width: 60%;
+  width: 70%;
   margin-left:auto;
   margin-right: auto;
 }
@@ -766,12 +768,16 @@ footer a:hover {
         grid-template-columns: 1fr;
     }
 
+    
     .project-container {
         grid-template-columns: 1fr;
+      
+       
     }
 
     .education-cards {
         flex-direction: column;
+        width:100%;
     }
 
     .contact {
